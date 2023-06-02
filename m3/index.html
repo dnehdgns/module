@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/xeicon@2.3.3/xeicon.min.css">
+    <style>
+        body { margin: 100px; }
+        button {
+            margin-bottom: 50px;
+            width: 150px;
+            height: 50px;
+        }
+        .del { margin-left: 50px; }
+        .show { margin-left: 200px; }
+        img { width: 200px; }
+        .box {
+            width: 600px; display: flex; position: relative;
+            border: 1px solid #000;
+            margin-bottom: 10px;
+        }
+        .box ul { margin-left: 30px; }
+        .box ul li { margin-bottom: 10px; font-size: 20px; }
+        .box ul li:first-child { margin-top: 50px; }
+        .box span { position: absolute; right: 50px; top: 50%; transform: translateY(-50%); }
+        .box span i { font-size: 30px; }
+    </style>
+</head>
+<body>
+    <button class="del">명단삭제</button>
+    <button class="show">명단보기</button>
+    <div class="wrap">
+        <!-- <div class="box">
+            <img src="../images/img0.jpg" alt="">
+            <ul>
+                <li>이름 : 홍길동</li>
+                <li>직업 : 풀스택개발자</li>
+                <li>전화번호 : 010-0000-1111</li>
+            </ul>
+            <span><i class="xi-heart-o"></i></span>
+        </div> -->
+    </div>
+    
+    <script type="module" src="./app.js">
+        
+    </script>
+</body>
+</html>
